@@ -1,10 +1,10 @@
-﻿<xapCache source="d:\documents\visual studio 2010\Projects\BMI\BMI\Bin\Debug\BMI.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="2014-03-18 16:47:31">
-  <file source="d:\documents\visual studio 2010\Projects\BMI\BMI\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2014-03-18 16:17:54" />
-  <file source="d:\documents\visual studio 2010\Projects\BMI\BMI\Background.png" archivePath="Background.png" lastWriteTime="2014-03-18 16:07:15" />
-  <file source="d:\documents\visual studio 2010\Projects\BMI\BMI\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="2014-03-18 16:07:15" />
-  <file source="d:\documents\visual studio 2010\Projects\BMI\BMI\obj\Debug\BMI.dll" archivePath="BMI.dll" lastWriteTime="2014-03-18 16:47:30" />
-  <file source="d:\documents\visual studio 2010\Projects\BMI\BMI\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="2014-03-18 16:07:15" />
-  <file source="d:\documents\visual studio 2010\Projects\BMI\BMI\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2014-03-18 16:17:54" />
-  <file source="d:\documents\visual studio 2010\Projects\BMI\BMI\Bin\Debug\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="2014-03-18 16:07:15" />
-  <file source="d:\documents\visual studio 2010\Projects\BMI\BMI\Bin\Debug\Background.png" archivePath="Background.png" lastWriteTime="2014-03-18 16:07:15" />
+﻿<xapCache source="D:\Documents\Visual Studio 2010\Projects\BMI\BMI\Bin\Debug\BMI.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="2014-03-21 09:40:38">
+  <file source="D:\Documents\Visual Studio 2010\Projects\BMI\BMI\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2014-03-18 16:17:54" />
+  <file source="D:\Documents\Visual Studio 2010\Projects\BMI\BMI\Background.png" archivePath="Background.png" lastWriteTime="2014-03-18 16:07:15" />
+  <file source="D:\Documents\Visual Studio 2010\Projects\BMI\BMI\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="2014-03-18 16:07:15" />
+  <file source="D:\Documents\Visual Studio 2010\Projects\BMI\BMI\obj\Debug\BMI.dll" archivePath="BMI.dll" lastWriteTime="2014-03-21 09:40:37" />
+  <file source="D:\Documents\Visual Studio 2010\Projects\BMI\BMI\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="2014-03-18 16:07:15" />
+  <file source="D:\Documents\Visual Studio 2010\Projects\BMI\BMI\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2014-03-18 16:17:54" />
+  <file source="D:\Documents\Visual Studio 2010\Projects\BMI\BMI\Bin\Debug\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="2014-03-18 16:07:15" />
+  <file source="D:\Documents\Visual Studio 2010\Projects\BMI\BMI\Bin\Debug\Background.png" archivePath="Background.png" lastWriteTime="2014-03-18 16:07:15" />
 </xapCache>

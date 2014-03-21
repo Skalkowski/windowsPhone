@@ -1,0 +1,12 @@
+d:\documents\visual studio 2010\Projects\UnderstendingNamespaces\UnderstendingNamespaces\Bin\Debug\ApplicationIcon.png
+d:\documents\visual studio 2010\Projects\UnderstendingNamespaces\UnderstendingNamespaces\Bin\Debug\Background.png
+d:\documents\visual studio 2010\Projects\UnderstendingNamespaces\UnderstendingNamespaces\Bin\Debug\UnderstendingNamespaces.dll
+d:\documents\visual studio 2010\Projects\UnderstendingNamespaces\UnderstendingNamespaces\Bin\Debug\UnderstendingNamespaces.pdb
+d:\documents\visual studio 2010\Projects\UnderstendingNamespaces\UnderstendingNamespaces\Bin\Debug\AppManifest.xaml
+d:\documents\visual studio 2010\Projects\UnderstendingNamespaces\UnderstendingNamespaces\Bin\Debug\UnderstendingNamespaces.xap
+d:\documents\visual studio 2010\Projects\UnderstendingNamespaces\UnderstendingNamespaces\obj\Debug\App.g.i.cs
+d:\documents\visual studio 2010\Projects\UnderstendingNamespaces\UnderstendingNamespaces\obj\Debug\MainPage.g.i.cs
+d:\documents\visual studio 2010\Projects\UnderstendingNamespaces\UnderstendingNamespaces\obj\Debug\UnderstendingNamespaces.g.resources
+d:\documents\visual studio 2010\Projects\UnderstendingNamespaces\UnderstendingNamespaces\obj\Debug\UnderstendingNamespaces.dll
+d:\documents\visual studio 2010\Projects\UnderstendingNamespaces\UnderstendingNamespaces\obj\Debug\UnderstendingNamespaces.pdb
+d:\documents\visual studio 2010\Projects\UnderstendingNamespaces\UnderstendingNamespaces\obj\Debug\XapCacheFile.xml

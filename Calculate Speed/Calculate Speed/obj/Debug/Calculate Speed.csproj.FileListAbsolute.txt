@@ -1,0 +1,14 @@
+d:\documents\visual studio 2010\Projects\Calculate Speed\Calculate Speed\Bin\Debug\ApplicationIcon.png
+d:\documents\visual studio 2010\Projects\Calculate Speed\Calculate Speed\Bin\Debug\Background.png
+d:\documents\visual studio 2010\Projects\Calculate Speed\Calculate Speed\Bin\Debug\Calculate Speed.dll
+d:\documents\visual studio 2010\Projects\Calculate Speed\Calculate Speed\Bin\Debug\Calculate Speed.pdb
+d:\documents\visual studio 2010\Projects\Calculate Speed\Calculate Speed\Bin\Debug\AppManifest.xaml
+d:\documents\visual studio 2010\Projects\Calculate Speed\Calculate Speed\Bin\Debug\Calculate_Speed.xap
+d:\documents\visual studio 2010\Projects\Calculate Speed\Calculate Speed\obj\Debug\App.g.i.cs
+d:\documents\visual studio 2010\Projects\Calculate Speed\Calculate Speed\obj\Debug\MainPage.g.i.cs
+d:\documents\visual studio 2010\Projects\Calculate Speed\Calculate Speed\obj\Debug\Calculate Speed.g.resources
+d:\documents\visual studio 2010\Projects\Calculate Speed\Calculate Speed\obj\Debug\Calculate Speed.dll
+d:\documents\visual studio 2010\Projects\Calculate Speed\Calculate Speed\obj\Debug\Calculate Speed.pdb
+d:\documents\visual studio 2010\Projects\Calculate Speed\Calculate Speed\obj\Debug\XapCacheFile.xml
+d:\documents\visual studio 2010\Projects\Calculate Speed\Calculate Speed\obj\Debug\CalculatePage.g.i.cs
+d:\documents\visual studio 2010\Projects\Calculate Speed\Calculate Speed\obj\Debug\ConvertPage.g.i.cs

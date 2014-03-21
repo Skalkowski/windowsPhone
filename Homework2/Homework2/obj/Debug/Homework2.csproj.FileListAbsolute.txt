@@ -1,0 +1,12 @@
+d:\documents\visual studio 2010\Projects\Homework2\Homework2\Bin\Debug\ApplicationIcon.png
+d:\documents\visual studio 2010\Projects\Homework2\Homework2\Bin\Debug\Background.png
+d:\documents\visual studio 2010\Projects\Homework2\Homework2\Bin\Debug\Homework2.dll
+d:\documents\visual studio 2010\Projects\Homework2\Homework2\Bin\Debug\Homework2.pdb
+d:\documents\visual studio 2010\Projects\Homework2\Homework2\Bin\Debug\AppManifest.xaml
+d:\documents\visual studio 2010\Projects\Homework2\Homework2\Bin\Debug\Homework2.xap
+d:\documents\visual studio 2010\Projects\Homework2\Homework2\obj\Debug\App.g.i.cs
+d:\documents\visual studio 2010\Projects\Homework2\Homework2\obj\Debug\MainPage.g.i.cs
+d:\documents\visual studio 2010\Projects\Homework2\Homework2\obj\Debug\Homework2.g.resources
+d:\documents\visual studio 2010\Projects\Homework2\Homework2\obj\Debug\Homework2.dll
+d:\documents\visual studio 2010\Projects\Homework2\Homework2\obj\Debug\Homework2.pdb
+d:\documents\visual studio 2010\Projects\Homework2\Homework2\obj\Debug\XapCacheFile.xml
