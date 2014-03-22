@@ -18,14 +18,12 @@ namespace Calculate_Speed
         public CalculatePage()
         {
             InitializeComponent();
-            distance_TextBox.IsEnabled = false;
-            time_TextBox.IsEnabled = false;
         }
 
         private void clear_Button_Click(object sender, RoutedEventArgs e)
         {
-            distance_TextBox.Text = "0";
-            time_TextBox.Text = "0";
+            distance_TextBox.Text = "";
+            time_TextBox.Text = "";
         }
 
         private void time_TextBox_TextChanged(object sender, TextChangedEventArgs e)
@@ -33,9 +31,6 @@ namespace Calculate_Speed
             float score = 0;
             if (!distance_TextBox.Text.Equals("") && !time_TextBox.Text.Equals(""))
             {
-                
-                score = float.Parse(distance_TextBox.Text) / float.Parse(time_TextBox.Text);
-                string wynik = licz().ToString();
                 score_TextBlock.Text = licz().ToString();
             }
             else
@@ -46,32 +41,41 @@ namespace Calculate_Speed
 
         private double licz()
         {
-            double dystans = double.Parse(distance_TextBox.Text);
-            if (sprawdzDystans() == "Meters")
+            double dystans = 0;
+            double czas = 0;
+            try
             {
-                dystans = dystans / 1000;
+                dystans = double.Parse(distance_TextBox.Text);
+                if (sprawdzDystans() == "Meters")
+                {
+                    dystans = dystans / 1000;
+                }
+                else if (sprawdzDystans() == "Miles")
+                {
+                    dystans = dystans * 1.609344;
+                }
+                else if (sprawdzDystans() == "Centimeters")
+                {
+                    dystans = dystans / 100000;
+                }
+
+                czas = double.Parse(time_TextBox.Text);
+                if (sprawdzCzas() == "Minutes")
+                {
+                    czas = czas / 60;
+                }
+                else if (sprawdzCzas() == "Seconds")
+                {
+                    czas = czas / 3600;
+                }
             }
-            else if (sprawdzDystans() == "Miles")
-            {
-                dystans = dystans * 1.609344;
-            }
-            else if (sprawdzDystans() == "Centimeters")
-            {
-                dystans = dystans / 100000;
+            catch (Exception ex){
+                MessageBox.Show("Error has occured! " + ex.Message);
             }
 
-            double czas = double.Parse(time_TextBox.Text);
-            if (sprawdzDystans() == "Minutes")
-            {
-                czas = czas / 60;
-            }
-            else if (sprawdzDystans() == "Seconds")
-            {
-                czas = czas / 3600;
-            }
-            
-            return dystans/czas;
+            return dystans / czas;
         }
+
 
         private string sprawdzCzas()
         {
@@ -81,8 +85,8 @@ namespace Calculate_Speed
 
         private string sprawdzDystans()
         {
-           ListBoxItem lbi = (ListBoxItem)distance_ListBox.SelectedItem;
-           return (string)lbi.Content;
+            ListBoxItem lbi = (ListBoxItem)distance_ListBox.SelectedItem;
+            return (string)lbi.Content;
         }
 
         private void back_Button_Click(object sender, RoutedEventArgs e)
@@ -95,9 +99,6 @@ namespace Calculate_Speed
             float score = 0;
             if (!time_TextBox.Text.Equals("") && !distance_TextBox.Text.Equals(""))
             {
-
-                score = float.Parse(distance_TextBox.Text) / float.Parse(time_TextBox.Text);
-                string wynik = licz().ToString();
                 score_TextBlock.Text = licz().ToString();
             }
             else
@@ -108,12 +109,9 @@ namespace Calculate_Speed
 
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            distance_TextBox.IsEnabled = true;
             float score = 0;
             if (!distance_TextBox.Text.Equals("") && !time_TextBox.Text.Equals(""))
             {
-                score = float.Parse(distance_TextBox.Text) / float.Parse(time_TextBox.Text);
-                string wynik = licz().ToString();
                 score_TextBlock.Text = licz().ToString();
             }
             else
@@ -124,19 +122,16 @@ namespace Calculate_Speed
 
         private void ListBox_SelectionChanged1(object sender, SelectionChangedEventArgs e)
         {
-            time_TextBox.IsEnabled = true;
             float score = 0;
             if (!distance_TextBox.Text.Equals("") && !time_TextBox.Text.Equals(""))
             {
-                score = float.Parse(distance_TextBox.Text) / float.Parse(time_TextBox.Text);
-                string wynik = licz().ToString();
                 score_TextBlock.Text = licz().ToString();
             }
             else
             {
                 score_TextBlock.Text = score.ToString();
             }
-            
+
         }
     }
 }

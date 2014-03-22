@@ -27,3 +27,17 @@ C:\Users\Henio\Desktop\windowsPhone-master\windowsPhone-master\Calculate Speed\C
 C:\Users\Henio\Desktop\windowsPhone-master\windowsPhone-master\Calculate Speed\Calculate Speed\obj\Debug\Calculate Speed.dll
 C:\Users\Henio\Desktop\windowsPhone-master\windowsPhone-master\Calculate Speed\Calculate Speed\obj\Debug\Calculate Speed.pdb
 C:\Users\Henio\Desktop\windowsPhone-master\windowsPhone-master\Calculate Speed\Calculate Speed\obj\Debug\XapCacheFile.xml
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\Bin\Debug\ApplicationIcon.png
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\Bin\Debug\Background.png
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\Bin\Debug\Calculate Speed.dll
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\Bin\Debug\Calculate Speed.pdb
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\Bin\Debug\AppManifest.xaml
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\Bin\Debug\Calculate_Speed.xap
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\obj\Debug\App.g.i.cs
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\obj\Debug\CalculatePage.g.i.cs
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\obj\Debug\ConvertPage.g.i.cs
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\obj\Debug\MainPage.g.i.cs
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\obj\Debug\Calculate Speed.g.resources
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\obj\Debug\Calculate Speed.dll
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\obj\Debug\Calculate Speed.pdb
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\obj\Debug\XapCacheFile.xml

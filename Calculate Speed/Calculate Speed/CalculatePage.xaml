@@ -82,7 +82,7 @@
             <ListBox Name="distance_ListBox"
                      Grid.Row="1"
                      Grid.Column="0" SelectionChanged="ListBox_SelectionChanged">
-                <ListBoxItem Content="Kilometers" />
+                <ListBoxItem Content="Kilometers" IsSelected="True"/>
                 <ListBoxItem Content="Miles" />
                 <ListBoxItem Content="Meters" />
                 <ListBoxItem Content="Centimeters" />
@@ -91,7 +91,7 @@
             <ListBox Name="time_ListBox"
                      Grid.Row="3"
                      Grid.Column="0" SelectionChanged="ListBox_SelectionChanged1">
-                <ListBoxItem Content="Hours" />
+                <ListBoxItem Content="Hours"  IsSelected="True"/>
                 <ListBoxItem Content="Minutes" />
                 <ListBoxItem Content="Seconds" />
             </ListBox>
