@@ -18,6 +18,8 @@ namespace Calculate_Speed
         public CalculatePage()
         {
             InitializeComponent();
+            distance_TextBox.IsEnabled = false;
+            time_TextBox.IsEnabled = false;
         }
 
         private void clear_Button_Click(object sender, RoutedEventArgs e)
@@ -29,9 +31,17 @@ namespace Calculate_Speed
         private void time_TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             float score = 0;
-            score = float.Parse(distance_TextBox.Text) / float.Parse(time_TextBox.Text);
-            string wynik = licz().ToString();
-            score_TextBlock.Text = licz().ToString();
+            if (!distance_TextBox.Text.Equals("") && !time_TextBox.Text.Equals(""))
+            {
+                
+                score = float.Parse(distance_TextBox.Text) / float.Parse(time_TextBox.Text);
+                string wynik = licz().ToString();
+                score_TextBlock.Text = licz().ToString();
+            }
+            else
+            {
+                score_TextBlock.Text = score.ToString();
+            }
         }
 
         private double licz()
@@ -59,25 +69,74 @@ namespace Calculate_Speed
             {
                 czas = czas / 3600;
             }
+            
             return dystans/czas;
         }
-
-
 
         private string sprawdzCzas()
         {
             ListBoxItem lbi = (ListBoxItem)time_ListBox.SelectedItem;
             return (string)lbi.Content;
         }
+
         private string sprawdzDystans()
         {
-            ListBoxItem lbi = (ListBoxItem)distance_ListBox.SelectedItem;
+           ListBoxItem lbi = (ListBoxItem)distance_ListBox.SelectedItem;
            return (string)lbi.Content;
         }
 
         private void back_Button_Click(object sender, RoutedEventArgs e)
         {
             NavigationService.GoBack();
+        }
+
+        private void distance_TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            float score = 0;
+            if (!time_TextBox.Text.Equals("") && !distance_TextBox.Text.Equals(""))
+            {
+
+                score = float.Parse(distance_TextBox.Text) / float.Parse(time_TextBox.Text);
+                string wynik = licz().ToString();
+                score_TextBlock.Text = licz().ToString();
+            }
+            else
+            {
+                score_TextBlock.Text = score.ToString();
+            }
+        }
+
+        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            distance_TextBox.IsEnabled = true;
+            float score = 0;
+            if (!distance_TextBox.Text.Equals("") && !time_TextBox.Text.Equals(""))
+            {
+                score = float.Parse(distance_TextBox.Text) / float.Parse(time_TextBox.Text);
+                string wynik = licz().ToString();
+                score_TextBlock.Text = licz().ToString();
+            }
+            else
+            {
+                score_TextBlock.Text = score.ToString();
+            }
+        }
+
+        private void ListBox_SelectionChanged1(object sender, SelectionChangedEventArgs e)
+        {
+            time_TextBox.IsEnabled = true;
+            float score = 0;
+            if (!distance_TextBox.Text.Equals("") && !time_TextBox.Text.Equals(""))
+            {
+                score = float.Parse(distance_TextBox.Text) / float.Parse(time_TextBox.Text);
+                string wynik = licz().ToString();
+                score_TextBlock.Text = licz().ToString();
+            }
+            else
+            {
+                score_TextBlock.Text = score.ToString();
+            }
+            
         }
     }
 }

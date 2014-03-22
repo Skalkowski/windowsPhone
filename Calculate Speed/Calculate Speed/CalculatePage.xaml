@@ -62,7 +62,7 @@
                      Grid.Row="1" 
                      VerticalAlignment="Stretch"
                      HorizontalAlignment="Stretch" 
-                     InputScope="Digits" />
+                     InputScope="Digits" TextChanged="distance_TextBox_TextChanged" />
             <TextBox Name="time_TextBox"
                      Height="70"
                      Grid.Column="1"
@@ -81,7 +81,7 @@
 
             <ListBox Name="distance_ListBox"
                      Grid.Row="1"
-                     Grid.Column="0">
+                     Grid.Column="0" SelectionChanged="ListBox_SelectionChanged">
                 <ListBoxItem Content="Kilometers" />
                 <ListBoxItem Content="Miles" />
                 <ListBoxItem Content="Meters" />
@@ -90,7 +90,7 @@
 
             <ListBox Name="time_ListBox"
                      Grid.Row="3"
-                     Grid.Column="0">
+                     Grid.Column="0" SelectionChanged="ListBox_SelectionChanged1">
                 <ListBoxItem Content="Hours" />
                 <ListBoxItem Content="Minutes" />
                 <ListBoxItem Content="Seconds" />
