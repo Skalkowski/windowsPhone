@@ -1,0 +1,14 @@
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\Bin\Release\ApplicationIcon.png
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\Bin\Release\Background.png
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\Bin\Release\Calculate Speed.dll
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\Bin\Release\Calculate Speed.pdb
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\Bin\Release\AppManifest.xaml
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\Bin\Release\Calculate_Speed.xap
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\obj\Release\App.g.i.cs
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\obj\Release\CalculatePage.g.i.cs
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\obj\Release\ConvertPage.g.i.cs
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\obj\Release\MainPage.g.i.cs
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\obj\Release\Calculate Speed.g.resources
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\obj\Release\Calculate Speed.dll
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\obj\Release\Calculate Speed.pdb
+D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\obj\Release\XapCacheFile.xml

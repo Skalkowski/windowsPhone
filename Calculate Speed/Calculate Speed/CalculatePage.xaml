@@ -22,7 +22,7 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock x:Name="ApplicationTitle" Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="ApplicationTitle" Text="Calculate Speed" Style="{StaticResource PhoneTextNormalStyle}"/>
             <TextBlock x:Name="PageTitle" Text="Calculate" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
@@ -62,14 +62,14 @@
                      Grid.Row="1" 
                      VerticalAlignment="Stretch"
                      HorizontalAlignment="Stretch" 
-                     InputScope="Digits" TextChanged="distance_TextBox_TextChanged" />
+                     InputScope="Digits" TextChanged="all_TextBox_TextChanged" />
             <TextBox Name="time_TextBox"
                      Height="70"
                      Grid.Column="1"
                      Grid.Row="3" 
                      VerticalAlignment="Stretch"
                      HorizontalAlignment="Stretch" 
-                     InputScope="Digits" TextChanged="time_TextBox_TextChanged" />
+                     InputScope="Digits" TextChanged="all_TextBox_TextChanged" />
 
             <TextBlock Name="scoreTitle_TextBlock"
                     Grid.ColumnSpan="2"
@@ -90,7 +90,7 @@
 
             <ListBox Name="time_ListBox"
                      Grid.Row="3"
-                     Grid.Column="0" SelectionChanged="ListBox_SelectionChanged1">
+                     Grid.Column="0" SelectionChanged="ListBox_SelectionChanged">
                 <ListBoxItem Content="Hours"  IsSelected="True"/>
                 <ListBoxItem Content="Minutes" />
                 <ListBoxItem Content="Seconds" />
@@ -101,7 +101,15 @@
                         Grid.Column="0"
                         Height="70"
                     VerticalAlignment="Stretch"
-                    HorizontalAlignment="Stretch" />
+                    HorizontalAlignment="Stretch" Text="0" TextAlignment="Right" TextWrapping="NoWrap" FontSize="40" />
+            <ListBox Name="score_ListBox"
+                     Grid.Row="5"
+                     Grid.Column="1" SelectionChanged="ListBox_SelectionChanged1">
+                <ListBoxItem Content="km/h" IsSelected="True"/>
+                <ListBoxItem Content="mph" />
+                <ListBoxItem Content="m/min" />
+                
+            </ListBox>
             <Button Name="clear_Button"
                     Content="Clear"
                     Grid.Column="1"
