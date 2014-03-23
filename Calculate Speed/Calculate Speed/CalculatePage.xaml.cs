@@ -15,6 +15,7 @@ namespace Calculate_Speed
 {
     public partial class CalculatePage : PhoneApplicationPage
     {
+        Boolean czyAkcja = false;
         public CalculatePage()
         {
             InitializeComponent();
@@ -109,29 +110,37 @@ namespace Calculate_Speed
 
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            float score = 0;
-            if (!distance_TextBox.Text.Equals("") && !time_TextBox.Text.Equals(""))
+            if (czyAkcja)
             {
-                score_TextBlock.Text = licz().ToString();
-            }
-            else
-            {
-                score_TextBlock.Text = score.ToString();
+                float score = 0;
+                if (!time_TextBox.Text.Equals("") && !distance_TextBox.Text.Equals(""))
+                {
+                    score_TextBlock.Text = licz().ToString();
+                }
+                else
+                {
+                    score_TextBlock.Text = score.ToString();
+                }
             }
         }
 
         private void ListBox_SelectionChanged1(object sender, SelectionChangedEventArgs e)
         {
-            float score = 0;
-            if (!distance_TextBox.Text.Equals("") && !time_TextBox.Text.Equals(""))
+            if (czyAkcja)
             {
-                score_TextBlock.Text = licz().ToString();
-            }
-            else
-            {
-                score_TextBlock.Text = score.ToString();
+                float score = 0;
+                if (!time_TextBox.Text.Equals("") && !distance_TextBox.Text.Equals(""))
+                {
+                    score_TextBlock.Text = licz().ToString();
+                }
+                else
+                {
+                    score_TextBlock.Text = score.ToString();
+                }
             }
 
+            czyAkcja = true;
+ 
         }
     }
 }

@@ -41,3 +41,18 @@ D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate 
 D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\obj\Debug\Calculate Speed.dll
 D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\obj\Debug\Calculate Speed.pdb
 D:\Documents\Visual Studio 2010\Projects\windowsPhone\Calculate Speed\Calculate Speed\obj\Debug\XapCacheFile.xml
+C:\Users\Henio\Desktop\windowsPhone\Calculate Speed\Calculate Speed\Bin\Debug\ApplicationIcon.png
+C:\Users\Henio\Desktop\windowsPhone\Calculate Speed\Calculate Speed\Bin\Debug\Background.png
+C:\Users\Henio\Desktop\windowsPhone\Calculate Speed\Calculate Speed\Bin\Debug\Calculate Speed.dll
+C:\Users\Henio\Desktop\windowsPhone\Calculate Speed\Calculate Speed\Bin\Debug\Calculate Speed.pdb
+C:\Users\Henio\Desktop\windowsPhone\Calculate Speed\Calculate Speed\Bin\Debug\AppManifest.xaml
+C:\Users\Henio\Desktop\windowsPhone\Calculate Speed\Calculate Speed\Bin\Debug\Calculate_Speed.xap
+C:\Users\Henio\Desktop\windowsPhone\Calculate Speed\Calculate Speed\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Henio\Desktop\windowsPhone\Calculate Speed\Calculate Speed\obj\Debug\App.g.i.cs
+C:\Users\Henio\Desktop\windowsPhone\Calculate Speed\Calculate Speed\obj\Debug\CalculatePage.g.i.cs
+C:\Users\Henio\Desktop\windowsPhone\Calculate Speed\Calculate Speed\obj\Debug\ConvertPage.g.i.cs
+C:\Users\Henio\Desktop\windowsPhone\Calculate Speed\Calculate Speed\obj\Debug\MainPage.g.i.cs
+C:\Users\Henio\Desktop\windowsPhone\Calculate Speed\Calculate Speed\obj\Debug\Calculate Speed.g.resources
+C:\Users\Henio\Desktop\windowsPhone\Calculate Speed\Calculate Speed\obj\Debug\Calculate Speed.dll
+C:\Users\Henio\Desktop\windowsPhone\Calculate Speed\Calculate Speed\obj\Debug\Calculate Speed.pdb
+C:\Users\Henio\Desktop\windowsPhone\Calculate Speed\Calculate Speed\obj\Debug\XapCacheFile.xml
