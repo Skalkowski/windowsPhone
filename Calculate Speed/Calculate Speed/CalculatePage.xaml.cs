@@ -84,7 +84,7 @@ namespace Calculate_Speed
             }
             else if (!time_TextBox.Text.Equals("") && !distance_TextBox.Text.Equals(""))
             {
-                score_TextBlock.Text = licz().ToString();
+                score_TextBlock.Text = licz();
             }
             else
             {

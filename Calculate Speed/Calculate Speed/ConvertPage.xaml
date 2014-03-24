@@ -27,14 +27,94 @@
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,12">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="66*" />
+                <RowDefinition Height="100*" />
+                <RowDefinition Height="66*" />
+                <RowDefinition Height="100*" />
+                <RowDefinition Height="192*" />
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="339*" />
+                <ColumnDefinition Width="117*" />
+                
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Name="yourSpeedTitle_TextBlock"
+                    Grid.ColumnSpan="3"
+                    Grid.Row="0"
+                    VerticalAlignment="Stretch"
+                    HorizontalAlignment="Center"  
+                    Text="Your speed: " 
+                       FontSize="48" />
+
+            <TextBlock Name="conSpeedTitle_TextBlock"
+                    Grid.ColumnSpan="3"
+                    Grid.Row="2"
+                    VerticalAlignment="Stretch"
+                    HorizontalAlignment="Center"  
+                    Text="Converted speed: " 
+                       FontSize="48" />
+
+            <TextBox Name="yourSpeed_TextBox"
+                     Height="70"
+                     Grid.Column="0"
+                     Grid.Row="1" 
+                     VerticalAlignment="Stretch"
+                     HorizontalAlignment="Stretch" 
+                     InputScope="Digits" TextAlignment="Right" TextChanged="yourSpeed_TextBox_TextChanged" />
+            <ListBox Name="your_ListBox"
+                     Grid.Row="1"
+                     Grid.Column="1" SelectionChanged="your_ListBox_SelectionChanged">
+                <ListBoxItem Content="km/h" IsSelected="True"/>
+                <ListBoxItem Content="km/min" />
+                <ListBoxItem Content="km/s" />
+                <ListBoxItem Content="mph" />
+                <ListBoxItem Content="mpmin" />
+                <ListBoxItem Content="mps" />
+                <ListBoxItem Content="m/h" />
+                <ListBoxItem Content="m/min" />
+                <ListBoxItem Content="m/s" />
+                <ListBoxItem Content="cm/h" />
+                <ListBoxItem Content="cm/min" />
+                <ListBoxItem Content="cm/s" />
+            </ListBox>
             
+
             
+            <TextBlock Name="score_TextBlock"
+                    Width="200" 
+                    Grid.Row="3"
+                        Grid.Column="0"
+                        Height="70"
+                    VerticalAlignment="Stretch"
+                    HorizontalAlignment="Stretch" Text="0" 
+                       TextAlignment="Right"
+                       FontSize="40" />
             
-            
+
+            <ListBox Name="con_ListBox"
+                     Grid.Row="3"
+                     Grid.Column="1" SelectionChanged="con_ListBox_SelectionChanged">
+                <ListBoxItem Content="km/h" />
+                <ListBoxItem Content="km/min" IsSelected="True"/>
+                <ListBoxItem Content="km/s" />
+                <ListBoxItem Content="mph" />
+                <ListBoxItem Content="mpmin" />
+                <ListBoxItem Content="mps" />
+                <ListBoxItem Content="m/h" />
+                <ListBoxItem Content="m/min" />
+                <ListBoxItem Content="m/s" />
+                <ListBoxItem Content="cm/h" />
+                <ListBoxItem Content="cm/min" />
+                <ListBoxItem Content="cm/s" />
+            </ListBox>
+
         </Grid>
     </Grid>
- 
+
     <!--Sample code showing usage of ApplicationBar-->
     <!--<phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
